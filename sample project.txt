@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<style>
+    body {font-family: "Lato", sans-serif}
+    li.fontss {
+    font-size: larger;
+}
+    </style>
+<body>
+    <div class="container">
+        <h1>PRICE RECORD INTENT NOTICE 151/2020 - HEALTH</h1>
+<hr>
+
+        <ul >
+            <li class="fontss">PUBLICATION DATE:<p id="0"></p></li>
+            <li class="fontss">OBJECT:</li><p>Price Registration for a period of 12 months, for the purchase of galvanized clamps.</p>
+            <li class="fontss">BIDDING DATE:<p id="1"></p></li>
+        </ul>
+
+
+<script>
+document.getElementById("0").innerHTML = new Date().toLocaleDateString();
+document.getElementById("1").innerHTML = new Date().toLocaleDateString();
+</script>
+    </div>
+</body>
+</html>
